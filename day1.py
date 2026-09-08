@@ -11,10 +11,8 @@ user={}
 for i in range(len(email_ids)):
     user[i+1]=email_ids[i]
 print(user)
-hh={}
 hh = dict(enumerate(email_ids,1))
 print(hh)
-    
 
 
 
